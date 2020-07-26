@@ -1,0 +1,42 @@
+{
+    "logs": [
+        {
+            "id": 1,
+            "message": "Trocar o HD no setor 005",
+            "attention": false,
+            "date": "03-02-2019",
+            "tech": "Sam Smith"
+        },
+        {
+            "id": 2,
+            "message": "Setor 007 não está conseguindo subir dados",
+            "attention": true,
+            "date": "03-02-2019",
+            "tech": "John Doe"
+        },
+        {
+            "id": 3,
+            "message": "Trocar a memória RAM no setor #050",
+            "attention": false,
+            "date": "03-02-2019",
+            "tech": "Sara Wilson"
+        }
+    ],
+    "techs": [
+        {
+            "id": 1,
+            "firstname": "Sam",
+            "lastname": "Smith"
+        },
+        {
+            "id": 2,
+            "firstname": "John",
+            "lastname": "Doe"
+        },
+        {
+            "id": 3,
+            "firstname": "Sara",
+            "lastname": "Wilson"
+        }
+    ]
+}
