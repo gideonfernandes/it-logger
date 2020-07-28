@@ -5,8 +5,8 @@ export const getLogs = () => async dispatch => {
   try {
     setLoading();
 
-    const response = fetch('/logs');
-    const data = (await response).json();
+    const response = await fetch('/logs');
+    const data = await response.json();
 
     dispatch({
       type: GET_LOGS,
