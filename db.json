@@ -1,6 +1,42 @@
 {
   "logs": [
+    {
+      "message": "Trocar HD no setor 003",
+      "tech": "Luke Willians",
+      "attention": false,
+      "date": "2020-07-29T02:43:35.559Z",
+      "id": 1
+    },
+    {
+      "message": "Falha nas requisições de upload de dados no setor 005",
+      "tech": "Sara Wilson",
+      "attention": true,
+      "date": "2020-07-29T02:45:12.935Z",
+      "id": 2
+    },
+    {
+      "message": "Monitorar devenvolvimento no setor 007",
+      "tech": "Gideon Fernandes",
+      "attention": false,
+      "date": "2020-07-29T02:47:12.703Z",
+      "id": 3
+    }
   ],
   "techs": [
+    {
+      "firstName": "Gideon",
+      "lastName": "Fernandes",
+      "id": 1
+    },
+    {
+      "firstName": "Sara",
+      "lastName": "Wilson",
+      "id": 2
+    },
+    {
+      "firstName": "Luke",
+      "lastName": "Willians",
+      "id": 3
+    }
   ]
 }
