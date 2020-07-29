@@ -6,13 +6,13 @@ import PropTypes from 'prop-types';
 const TechSelectOptions = ({ tech: { techs, loading }, getTechs }) => {
   useEffect(() => {
     getTechs();
-  // eslist-disable-next-line
+    // eslint-disable-next-line
   }, []);
 
   return (
     !loading && techs !== null && techs.map(t => (
-      <option key={t.id} value={`${t.firstname} ${t.lastname}`}>
-        {t.firstname} {t.lastname}
+      <option key={t.id} value={`${t.firstName} ${t.lastName}`}>
+        {t.firstName} {t.lastName}
       </option>
     ))
   );
